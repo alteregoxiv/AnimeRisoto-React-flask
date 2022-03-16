@@ -1,0 +1,9 @@
+.naavbar{
+  z-index: 1;
+  width: 100%;
+  position: sticky;
+}
+
+.naavbar.colorchange{
+  background-color: transparent!important;
+}

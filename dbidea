@@ -1,0 +1,9 @@
+user -> id , username , email , pwdhash
+
+animelist -> id , title , title_eng , title_jp , synopsis , background , 
+                imageurl , youtubeurl , type , source , episodes , airdate ,
+                maturityrating , ratings , licensor , studio , genre
+
+users_list -> user_id(fkey -> user) , animelist_id(fkey -> animelist)
+
+friends_list -> user_id(fkey -> user) , user_id(fkey -> user)

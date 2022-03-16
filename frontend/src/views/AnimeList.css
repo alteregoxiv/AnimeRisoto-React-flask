@@ -1,0 +1,16 @@
+.main{
+  height: 90vh;
+}
+
+.sidebar {
+  float: left;
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid black;
+  margin: 1%;
+}
+
+.list{
+  height: 100%;
+overflow: scroll;
+}

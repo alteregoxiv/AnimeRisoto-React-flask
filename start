@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source $PWD/venv/bin/activate
+
+export user=kixztwtw
+export pass=32tMJeoz6NHOiNAsLYqvyl7m-eE7ABbk
